@@ -1,0 +1,16 @@
+/* http://jsfiddle.net/coltrane/cxQGc/ */
+.top {
+    text-align: center;
+    position:absolute;
+    left:0, right:0;
+    height: 92px;
+}
+.left {
+    position:absolute;
+    left:0, right:92px; top: 92px; bottom: 0;
+    width: 178px; /*todo: ideally this would scale or slide for mobile*/
+}
+.main {
+    position:absolute;
+    left: 178px; top: 92px; right:0; bottom:0;
+}
