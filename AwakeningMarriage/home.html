@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="home.css" />
+<script src="jquery-3.4.1.js"></script>
+<script src="characters.js"></script>
+<script src="home.js"></script>
+</head>
+<body>
+<div class="header">
+<h4>
+Fire Emblem Awakening Marriage Planner
+</h4>
+</div>
+<div class="save-config">
+Load an existing save file
+<select id="save-file-select">
+<option value=""></option>
+</select><br />
+Select your Avatar's Gender
+<select id="avatar-gender-select">
+<option value=""></option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+</select><br />
+Name your avatar / save file
+<input id="save-file-name" type="text"></input>
+</div>
+<div>
+<div class="male" ondrop="dropMaleContainer(event, this)" ondragover="dragover(event)">
+</div>
+<div class="female" ondrop="dropFemaleContainer(event, this)" ondragover="dragover(event)">
+</div>
+</div>
+<div class="pairing-container">
+<div id="pairing-checker-male" class="pairing-checker" ondrop="dropMalePair(event, this)" ondragover="dragover(event)">
+</div>
+<div id="pairing-checker-female" class="pairing-checker" ondrop="dropFemalePair(event, this)" ondragover="dragover(event)">
+</div>
+<button id="pair-characters-button">Pair</button>
+<button id="save-pairings-button">Save</button>
+</div>
+<div class="pairings-list-container">
+</div>
+</body>
+</html>
