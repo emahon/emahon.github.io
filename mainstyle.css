@@ -8,9 +8,22 @@
 .left {
     position:absolute;
     left:0, right:92px; top: 92px; bottom: 0;
-    width: 178px; /*todo: ideally this would scale or slide for mobile*/
+    width: 100px; /*todo: ideally this would scale or slide for mobile*/
+    border-width: 5px;
+    border-color: #000000;
+    border-style: solid;
+    padding-right: 5px;
+    background-color: #ffffff;
 }
 .main {
     position:absolute;
-    left: 178px; top: 92px; right:0; bottom:0;
+    left: 115px; top: 92px; right:0; bottom:0;
+    border-width: 5px;
+    border-color: #000000;
+    border-style: solid;
+    margin-left: 20px;
+    background-color: #ffffff;
+}
+body {
+    background-color: #2871CC;
 }
