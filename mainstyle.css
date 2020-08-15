@@ -24,8 +24,9 @@
     padding: 5px;
 }
 body {
-    background-image: url('background.png');
+    background-image: url('background4.png');
     background-repeat: no-repeat;
-    background-color: #002b36;
+    background-size: cover;
+    background-color: #000d1c;
     font-family: Arial, sans-serif;
 }
