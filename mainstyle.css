@@ -24,6 +24,8 @@
     padding: 5px;
 }
 body {
-    background-color: #3982DD;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-color: #002b36;
     font-family: Arial, sans-serif;
 }
