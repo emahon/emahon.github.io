@@ -6,21 +6,20 @@
     background-color: #ffffff;
     width: 70%;
     min-width: 500px;
+    padding: 5px;
     margin: auto;
+    margin-bottom: 10px;
+}
+.content-header {
+    font-size: 20px;
 }
 .top {    
     text-align: center;
     font-size: 75px;
-    padding: 3px;
-    margin-bottom: 10px;
 }
 .links {
     text-align: center;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-.main {
-    padding: 5px;
+    font-size: larger;
 }
 body {
     background-image: url('Skewed3.png');
