@@ -1,4 +1,4 @@
-.top {
+.content-div {
     border-width: 5px;
     border-color: #000000;
     border-style: solid;
@@ -7,24 +7,23 @@
     width: 70%;
     min-width: 500px;
     margin: auto;
+}
+.top {    
     text-align: center;
     font-size: 75px;
     padding: 3px;
     margin-bottom: 10px;
 }
+.links {
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
 .main {
-    border-width: 5px;
-    border-color: #000000;
-    border-style: solid;
-    border-radius: 10px;
-    background-color: #ffffff;
-    width: 70%;
-    min-width: 500px;
-    margin: auto;
     padding: 5px;
 }
 body {
-    background-image: url('background4.png');
+    background-image: url('Skewed3.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #000d1c;
